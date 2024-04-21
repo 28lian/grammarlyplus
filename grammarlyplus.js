@@ -1,6 +1,5 @@
 /// grammarly.js
-
-function heyy() {
+setInterval(() => {
     try {
             for (let premiums of document.querySelector("grammarly-popups").shadowRoot.querySelectorAll("button.sticker")) {
                 premiums.style.display = "none";
@@ -8,9 +7,5 @@ function heyy() {
         } catch {
             1+1
         }
-}
-(function() {
-    'use strict';
+}, 1000)
 
-    setInterval(heyy, 1000);
-})();
