@@ -1,4 +1,4 @@
-// grammarly.js
+/// grammarly.js
 
 function heyy() {
     try {
